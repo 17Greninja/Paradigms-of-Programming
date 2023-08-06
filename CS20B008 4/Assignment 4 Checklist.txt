@@ -1,0 +1,29 @@
+Checklist for Assignment4
+
+1) Have you tarred + gzipped the file as CS20B008.tar.gz (replace XXXXXXXX is your 8-digit roll number) ?
+
+Yes
+
+2) Does your tar.gz file expand (by using the command tar xvzf) to the base directory named CS20B008 (your 8-digit roll number) ?
+
+Yes
+
+3) The directory should contain two entries: A3 directory and this file (checklist.txt)?
+
+Yes
+
+4) The A3 directory has all .pl files with filename xx.pl (replace xx with the question no q1, q2 etc) ?
+
+Yes
+
+5) Have you removed all the debugging messages that your programs may
+output?
+
+Yes
+
+6) Is (some part of) the assignment plagiarized?
+
+No
+
+Any comments for your solutions: some of the code was taken from slides.
+

@@ -1,0 +1,48 @@
+Checklist for Assignment A1
+
+1) Have you tarred + gzipped the file as XXXXXXXX.tar.gz (replace XXXXXXXX is your 8-digit roll number) ?
+
+Yes
+
+2) Does your tar.gz file expand (by using the command tar xvzf) to the base directory named XXXXXXXX (your 8-digit roll number) ?
+
+Yes
+
+3) The directory should contains two entries: A0 directory and this file (checklist.txt)?
+
+Yes
+
+4) The A0 directory has two sub-directories, Q1 and Q2?
+
+Yes
+
+5) The assignment in Q1 can be compiled and run using the following
+commands?
+
+//In the Q1 directory:
+javac Display.java
+java Display -m 6 -n 6 -c x dew
+
+
+Yes
+
+6) The assignment in Q2 can be compiled and run using the following
+commands?
+
+// In the Q2 directory:
+cp /tmp/Code.java . # To copy my version of Code.java
+javac Calc.java
+java Calc
+
+Yes
+
+7) Have you removed all the debugging messages that your programs may
+output?
+
+Yes
+
+8) Is (some part of) the assignment plagiarized?
+
+No
+Any comments for your solutions:
+for q1 - for m and n less than or equal to 3, bad input message will be displayed, to remove this we can comment out lines - 183 to 187.

@@ -1,0 +1,45 @@
+Checklist for Assignment3
+
+1) Have you tarred + gzipped the file as XXXXXXXX.tar.gz (replace XXXXXXXX is your 8-digit roll number) ?
+
+Yes
+
+2) Does your tar.gz file expand (by using the command tar xvzf) to the base directory named XXXXXXXX (your 8-digit roll number) ?
+
+Yes
+
+3) The directory should contain two entries: A2 directory and this file (checklist.txt)?
+
+Yes
+
+4) The A2 directory has all .scm files with filename xx.scm (replace xx with interpreter-regular for question A1 and so on) ?
+
+Yes
+
+5) The assignment can be compiled and run using the following
+commands?
+
+tar xvzf .tar.gz
+cd yourroll/A2
+for x in *scm
+do
+	q=$(basename $x .scm) # Get the question no. A1, A2 or B
+	for t in /tmp/$q/*scm # say, the test input for that question is stored in a file in the /tmp directory.
+        do
+		cat $t | java -jar sst.jar > tree.scm
+		mzscheme <  $x
+done
+
+Yes
+
+6) Have you removed all the debugging messages that your programs may
+output?
+
+Yes
+
+7) Is (some part of) the assignment plagiarized?
+
+No
+
+Any comments for your solutions: a lot of code was taken from the slides.
+

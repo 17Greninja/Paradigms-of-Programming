@@ -1,0 +1,42 @@
+Checklist for Assignment A2
+
+1) Have you tarred + gzipped the file as CS20B008.tar.gz (replace XXXXXXXX is your 8-digit roll number) ?
+
+Yes
+
+2) Does your tar.gz file expand (by using the command tar xvzf) to the base directory named XXXXXXXX (your 8-digit roll number) ?
+
+Yes
+
+3) The directory should contain two entries: A1 directory and this file (checklist.txt)?
+
+Yes
+
+4) The A1 directory has all .scm files with filname xx.scm (replace xx with Q1 for Question1 and so on) ?
+
+Yes
+
+5) The assignment can be compiled and run using the following
+commands?
+
+// in A1 directory
+for x in *scm
+do
+	q=$(basename $x .scm) # Get the question no.
+	test=/tmp/$q.tst      # say, the test input for that question is stored in a .tst file in the /tmp directory.
+	mzscheme <  $(cat $x; cat $test)
+done
+
+Yes
+
+6) Have you removed all the debugging messages that your programs may
+output?
+
+Yes
+
+7) Is (some part of) the assignment plagiarized?
+
+No
+
+Any comments for your solutions:
+
